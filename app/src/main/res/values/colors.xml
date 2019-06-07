@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6ACA25</color>
+    <color name="colorPrimaryDark">#008000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="editexColorWhite">#FFFFFF</color>
+    <color name="editexColorBlack">#000000</color>
+    <color name="sobra_card">#53292929</color>
+    <color name="sobra_card2">#b43b60da</color>
+    <color name="graaylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="andblue">#0bcce6</color>
+    <color name="colorfacebook">#5153e7</color>
+    <color name="colortwitter">#5882f7</color>
+    <color name="colorgoogle">#ef1524</color>
+</resources>

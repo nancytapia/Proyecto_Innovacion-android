@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_view2"
+    tools:context=".Vistas_Actividades.FrameOne_Actividades">
+    <include layout="@layout/actionbar_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginTop="70dp">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/black">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/name_activiidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre Actividad"
+            />
+    </android.support.design.widget.TextInputLayout>
+       <EditText
+           android:id="@+id/fecha"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Fecha de entrega"
+           android:onClick="goGecha"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/black">
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/unidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre Unidad"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/black">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/unida3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="$valor de la actividad"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            app:srcCompat="@drawable/foto_blnaca" />
+        <Button
+            android:id="@+id/show_options_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button"
+            android:text="Cargar foto"
+            android:background="@android:color/holo_orange_light"
+            android:textColor="@android:color/white"/>
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar"
+        android:onClick="goMisActividades"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

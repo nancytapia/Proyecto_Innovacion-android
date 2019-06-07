@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/crear_Grupo"
+            android:icon="@drawable/icono_addgroup"
+            android:title="Crear nuevo grupo" />
+        <item
+            android:id="@+id/mis_grupos"
+            android:icon="@drawable/ic_misgroup"
+            android:title="Mis grupos" />
+        <item
+            android:id="@+id/Notificaciones"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/calendar"
+            android:icon="@drawable/calendar"
+            android:title="Calendario" />
+
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Cerrar sesión" />
+    </group>
+
+
+</menu>

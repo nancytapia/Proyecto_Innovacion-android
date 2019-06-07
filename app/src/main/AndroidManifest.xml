@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.money.keepsafe.keepsafemoney">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inicio.CreateAccountActivity" />
+        <activity android:name=".Perfil.PerfilActivity" />
+        <activity
+            android:name=".Menu_Grupos.Grupos_Activity"
+            android:label="@string/title_activity_grupos_"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Grupo_Actividades.Actividades_Activity"
+            android:label="@string/title_activity_actividades_"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Vistas_Actividades.Actividades_Activity" />
+        <activity android:name=".Vistas_Actividades.ActividadesOne_Activity" />
+        <activity android:name=".Vistas_Actividades.ActividadesTwo_Activity" />
+        <activity android:name=".Vistas_Actividades.ActividadestresActivity" />
+        <activity android:name=".Vistas_Actividades.FrameOne_Actividades" />
+        <activity android:name=".Vistas_Actividades.Trampa_One"></activity>
+    </application>
+
+</manifest>

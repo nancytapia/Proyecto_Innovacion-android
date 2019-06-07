@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rl_view"
+    tools:context=".Perfil.PerfilActivity">
+
+    <include
+        layout="@layout/actionbar_toolbar"
+         />
+
+    <Button
+        android:id="@+id/show_options_button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginTop="159dp"
+        android:text="Foto" />
+
+    <ImageView
+        android:id="@+id/set_picture"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="65dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/contentDescriptionImagenSet"
+        android:scaleType="centerCrop"
+        android:src="@drawable/usuario" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stic_1"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text=""
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/stic_2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/stic_3"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/stic_4"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_siguiente"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="Continuar"
+            android:theme="@style/RaisedButtonDark"
+            android:layout_marginTop="10dp"
+            android:onClick="goMenuGrupo"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

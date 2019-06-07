@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vistas_Actividades.ActividadesOne_Activity">
+    <include layout="@layout/actionbar_toolbar"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:fab_colorNormal="@color/colorgoogle"
+        app:fab_label="Google Plus"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentRight="true"
+        android:onClick="goActividadesFirst"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="261dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        app:srcCompat="@drawable/descarga" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp"
+        android:text="No hay activadades"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

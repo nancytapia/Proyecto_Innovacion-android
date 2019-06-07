@@ -1,0 +1,32 @@
+<resources>
+
+
+    <string name="app_name">KeepsafeMoney</string>
+    <string name="text_button_login">Login</string>
+    <string name="dont_have_account">¿No tiene cuenta?</string>
+    <string name="create_here">,Crea una aqui</string>
+    <string name="hint_username">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="toolbar_title_createaccount">Crear cuenta</string>
+    <string name="toolbar_title_create_group">Crear grupo</string>
+    <string name="toolbar_title_profile">Configuración perfil</string>
+    <string name="text_button_create_Account">Unete</string>
+    <string name="hint_confirm_paswword">Confirmar contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_fecha">Fecha de nacimiento</string>
+    <string name="hint_app">Apellido paterno</string>
+    <string name="hint_apm">Apellido materno</string>
+    <string name="contentDescriptionImagenSet">This is where the picture is going to assign</string>
+    <string name="title_activity_grupos_">Keepsafe Money</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Javier Pintor Alarcon</string>
+    <string name="nav_header_subtitle">Docente</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_actividades_">Actividades_Activity</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vistas_Actividades.Actividades_Activity"
+    android:background="@drawable/fodo_azul">
+
+    <include layout="@layout/actionbar_toolbar"/>
+
+    <Button
+        android:id="@+id/primer_parcial"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/btn_cricle"
+        android:onClick="goParcialOne"
+        android:text="Primer parcial"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/segundo_parcial"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/btn_cricle"
+        android:onClick="goParcialtwo"
+        android:text="Segundo parcial"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/segundo_parcial"
+        android:layout_toEndOf="@+id/salir_btn"
+        android:background="@drawable/btn_cricle"
+        android:onClick="goParcialthree"
+        android:text="Tercer parcial"
+
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/salir_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/btn_redondo"
+        android:onClick="gosalir"
+        android:text="salir del grupo"
+        android:textColor="@android:color/white"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:menu_fab_label="Redes sociales">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="facebookIntent"
+            android:src="@drawable/ic_facebook"
+            app:fab_colorNormal="@color/colorfacebook"
+            app:fab_label="Facebook"></com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="TwitterIntent"
+            android:src="@drawable/ic_twitter"
+            app:fab_colorNormal="@color/colortwitter"
+            app:fab_label="Twitter"></com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="googleIntent"
+            android:src="@drawable/ic_googleplu"
+            app:fab_colorNormal="@color/colorgoogle"
+            app:fab_label="Google Plus"></com.github.clans.fab.FloatingActionButton>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+    </RelativeLayout>
